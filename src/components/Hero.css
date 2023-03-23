@@ -37,6 +37,7 @@
     letter-spacing: 2px;
     cursor: pointer;
     border: none;
+    color: black;
 }
 
 .HeroText button:hover {
