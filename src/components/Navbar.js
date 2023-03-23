@@ -7,6 +7,7 @@ import Diversity3Icon from '@mui/icons-material/Diversity3';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [clicked, setclicked] = useState(true)
@@ -23,26 +24,34 @@ const Navbar = () => {
                 {clicked ? <MenuIcon onClick={clickOn} /> : <CloseIcon onClick={clickOff} />}
             </div>
             <div className={clicked ? 'navbarItems active' : 'navbarItems'}>
-                <div className='navbarItem'>
-                    <RoofingIcon />
-                    <span>Home</span>
-                </div>
-                <div className='navbarItem'>
-                    <InfoIcon />
-                    <span>About</span>
-                </div>
-                <div className='navbarItem'>
-                    <Diversity3Icon />
-                    <span>Services</span>
-                </div>
-                <div className='navbarItem'>
-                    <AlternateEmailIcon />
-                    <span>contact</span>
-                </div>
+                <Link onClick={() => setclicked(true)} className='link' to='/'>
+                    <div className='navbarItem'>
+                        <RoofingIcon />
+                        <span>Home</span>
+                    </div>
+                </Link>
+                <Link onClick={() => setclicked(true)} className='link' to='/about'>
+                    <div className='navbarItem'>
+                        <InfoIcon />
+                        <span>About</span>
+                    </div>
+                </Link>
+                <Link onClick={() => setclicked(true)} className='link' to='/services' >
+                    <div className='navbarItem'>
+                        <Diversity3Icon />
+                        <span>Services</span>
+                    </div>
+                </Link>
+                <Link onClick={() => setclicked(true)} className='link' to='/contact '>
+                    <div className='navbarItem'>
+                        <AlternateEmailIcon />
+                        <span>contact</span>
+                    </div>
+                </Link>
 
             </div>
 
-        </div>
+        </div >
     )
 }
 
