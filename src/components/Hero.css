@@ -12,7 +12,7 @@
     text-align: center;
     color: white;
     width: 60%;
-    padding: 30px;
+    padding: 25px;
     background: rgba(0, 0, 0, 0.655);
     border-radius: 20px;
 }
@@ -48,6 +48,7 @@
 
 .hidden {
     display: none;
+    visibility: hidden;
 }
 
 @media screen and (max-width:555px) {
@@ -76,7 +77,6 @@
 
     .HeroText p {
         font-size: 1rem;
-        padding: 0 0 2rem 0;
     }
 
     .HeroText button {
