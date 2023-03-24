@@ -64,13 +64,14 @@
         position: relative;
         width: 180%;
         height: 100vh;
-        left: -300px;
+        left: -250px;
     }
 
 
     .HeroText h1 {
-        padding: 10px 20px;
-        font-size: 1.7rem;
+        padding: 5px 10px;
+        font-size: 2rem;
+        text-align: center;
     }
 
     .HeroText p {

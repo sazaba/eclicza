@@ -7,7 +7,7 @@ const Contact = () => {
             <Hero
                 heroClass='Hero'
                 heroImg='https://i.postimg.cc/bJ0LxM77/samsung-uk-SUb-v-G-sspk-unsplash.jpg'
-                title='Contact Us'
+                title='Contact Your Partner'
                 paragraph='Satisfying customer needs'
                 btnClass='hidden'
                 btn=''
