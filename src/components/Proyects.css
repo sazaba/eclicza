@@ -1,0 +1,18 @@
+.proyects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 6rem;
+}
+
+.proyects h1 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width:850px) {
+    .proyects {
+        margin: 4rem 2rem;
+        text-align: center;
+    }
+}
