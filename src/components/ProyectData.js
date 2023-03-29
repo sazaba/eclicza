@@ -9,8 +9,8 @@ const ProyectData = ({ title, paragraph, img1, img2, classR }) => {
                 <p>{paragraph}</p>
             </div>
             <div className='image'>
-                <img src={img1} alt='' />
-                <img src={img2} alt='' />
+                <img loading='lazy' src={img1} alt='' />
+                <img loading='lazy' src={img2} alt='' />
             </div>
 
         </div>

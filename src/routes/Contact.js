@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <Hero
                 heroClass='Hero'
-                heroImg='https://i.postimg.cc/bJ0LxM77/samsung-uk-SUb-v-G-sspk-unsplash.jpg'
+                heroImg='https://i.postimg.cc/6pPxx3VJ/pexels-buro-millennial-1438072.jpg'
                 title='Contact Your Partner'
                 paragraph='Satisfying customer needs'
                 btnClass='hidden'
