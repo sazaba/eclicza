@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     return (
         <div className='navbar'>
-            <img className='navbarLogo' src={logo} alt='' />
+            <img className='navbarLogo' loading='lazy' src={logo} alt='' />
             <div className='hamburguer'>
                 {clicked ? <MenuIcon onClick={clickOn} /> : <CloseIcon onClick={clickOff} />}
             </div>
