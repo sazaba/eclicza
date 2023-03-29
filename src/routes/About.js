@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <Hero
                 heroClass='Hero'
-                heroImg='https://i.postimg.cc/G2BKDL6R/pexels-matheus-bertelli-2467506-2.jpg'
+                heroImg='https://i.postimg.cc/6qNP5xS0/pexels-matheus-bertelli-2467506-1.jpg'
                 title='Meet Our Tech Team'
                 paragraph='Driven by Passion'
                 btnClass='hidden'

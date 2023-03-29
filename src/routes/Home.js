@@ -7,7 +7,7 @@ function Home() {
         <div>
             <Hero
                 heroClass='Hero'
-                heroImg='https://i.postimg.cc/QMQ6VTqL/ilya-b4s7eitm-Eqs-unsplash-1.jpg'
+                heroImg='https://i.postimg.cc/XJm09M4V/ilya-b4s7eitm-Eqs-unsplash.jpg'
                 title='Your Journey Your Story'
                 paragraph='Choose Your Favorite Product'
                 btn='Choose Your Product'
