@@ -1,0 +1,29 @@
+
+
+
+import ClimbingBoxLoader from "react-spinners/ClipLoader";
+
+const [isLoading, setisLoading] = useState(false)
+useEffect(() => {
+    setisLoading(true)
+    setTimeout(() => {
+        setisLoading(false)
+    }, 700)
+}, [])
+
+const override: CSSProperties = {
+    position: 'absolute',
+    top: '55%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    textAlign: 'center'
+};
+
+{
+    isLoading ? (
+        <ClimbingBoxLoader
+            cssOverride={override}
+            color="orange"
+            size={50}
+        />) : (<></>)
+}
